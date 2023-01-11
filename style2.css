@@ -1,0 +1,92 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(63, 63, 63);
+}
+
+nav{
+background-color: rgb(47, 49, 48);
+width: 100%;
+height: 75px;
+
+}
+nav ul h2{
+    font-size: 50px;
+    float: left;
+    color: rgb(171, 200, 226);
+    padding-left: 30px;
+    
+}
+nav h2:hover {
+    animation: animated-text 0.9s ease-in-out;
+  }
+  @keyframes animated-text {
+    0% {
+      color: #333;
+      text-shadow: none;
+    }
+    100% {
+      color: #4CAF50;
+      text-shadow: 2px 2px #ff0000;
+    }
+  }
+li a{
+    align-items: center;
+    padding: 10px 60px;
+}
+nav ul li a{
+    color: rgb(171, 200, 226);
+    text-decoration: none;
+    border-radius: 15px;
+}
+ul li{
+    list-style-type: none;
+    float: right;
+    line-height: 70px;
+}
+a:hover{
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    background-clip: text;
+}
+iframe {
+    float: right;
+    margin-top: 70px;
+    width: 40%;
+    height: 70vh;
+    margin-right: 40px;
+}
+p{
+    font-size: 40px;
+    padding-left: 90px;
+    padding-top: 10px;
+    color: aliceblue;
+}
+#loc p{
+        font-size: 20px;
+        padding-left: 200px;
+        padding-top: 20px;
+        color: aliceblue;
+    }
+    span p{
+        font-size: 20px;
+        padding-left: 300px;
+        padding-top: 20px;
+        color: aliceblue;
+    }
+    span p a{
+        text-decoration: none;
+        color: aliceblue;
+        font-family: monospace;
+    }
+span h1{
+    color: #00ff6ef6;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 80px;
+    font-size: 20px;
+}
